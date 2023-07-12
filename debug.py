@@ -1,9 +1,13 @@
-import ipdb
+import pdb
 from lib import *
 
-#code here
+c1 = Company("Dick n' Balls", 1926)
+
+d1 = Dev("Danny")
+
+f1 = Freebie("Hat", 15, d1, c1)
 
 
 
 
-ipdb.set_trace()
+pdb.set_trace()
